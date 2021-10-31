@@ -1,0 +1,44 @@
+* {
+    color: white;
+    background-color: #21232A;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+body {
+    padding: 20px;
+}
+
+input{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    align-content: center;
+    border: 1px solid cornflowerblue;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.card:hover{
+    border: 2px solid darkorchid;
+    cursor: pointer;
+}
+
+.card p{
+    padding: 5px;
+    text-align: center;
+}
+
+.card img{
+    height: 170px;
+}
